@@ -1,6 +1,6 @@
 ## Poker Simulator
 
-**Version:** 0.0.3 (Alpha Release)
+**Version:** 0.9.3 (Pre Release)
 
 **Authors:**
 
