@@ -1,63 +1,78 @@
-README
-Version: 0.0.3 / Alpha Release
-Authors:
-	-Anna Ahn, Ishika Narain, Filiberto Alvarez, Bilal Malik, Rishi Tirumala, Tuaha Khan
-Date:
-	-5/24/24
-© 1987 - 2024 Full House of Fools. All Rights Reserved
+## Poker Simulator
 
-General Instructions:
-	- Follow the instructions stated in the INSTALL.TXT to download the program.
-	- To run the program go into the "bin/" directory and type ./Poker to execute the chess program.
-	- After executing ./Poker use the GUI interface to use the program.
-	- Press Play to connect to the Poker Server.
-	- Once all players have connected press play and the users will be moved to the Poker table
-	- The player will be prompted with Raise, Fold, or Call on their turn
-	- During the Preflop, Flop, Turn, and river cards will be dealt 
+**Version:** 0.0.3 (Alpha Release)
 
-Extra Features:
-	- Client and Server Systems
-	- Playable Bots
-	- Hand Percentages
-	- Bot levels
+**Authors:**
 
-README FOR USERS:
-[For more details see Poker_UserManual.pdf located in the "doc/" directory]
-Poker_Alpha.tar.gz Contents:
-bin/							- Directory which stores copies of all the executables
-	Poker						- Main Poker executable
-doc/							- Directory with the user and software documentation
-	Poker_UserManual.pdf		- Detailed user manual for the user
-INSTALL.TXT						- Installation directions
-LICENSE.TXT						- Licensing by Full House of Fools & FHF Software Inc.
-README							- README for poker simulator
+* Anna Ahn
+* Ishika Narain
+* Filiberto Alvarez
+* Bilal Malik
+* Rishi Tirumala
+* Tuaha Khan
 
+**Date:** May 24, 2024
 
-README	FOR PROGRAMERS:
-[For more details see Poker_SoftwareSpec.pdf located in the "doc/" directory]
-Make Commands:
-	- make all - create the main executable Poker and places it in the bin/ directory
-	- make test - create the test executables, places it in the bin/ directory, and runs it
-	- make clean - removes all the .o files in the src/ directory and any tar.gz files
-	- make tar - generates the .tar.gz files for the user/programer 
+**Copyright:** © 1987 - 2024 Full House of Fools. All Rights Reserved.
 
-Poker_Alpha_src.tar.gz Contents:
-bin/							- Directory which stores copies of all the executables
-	Poker						- Main Poker executable
-doc/							- Directory with the user and software documentation
-	Poker_SoftwareSpec.pdf		- Detailed software specifications for the Poker.c program
-	Poker_UserManual.pdf		- Detailed user manual for the user
-scr/							- Directory which contains all the c files along with a Makefile 
-	Bot.c						- Functions for the poker bot
-	Bot.h						- Bot.c Header
-	Gui.c						- Functions for the client Gui
-	Gui.h						- Gui.c Header
-	Poker_Client.c				- Functions for the user client
-	Poker_Client.h				- Poker_Client.c Header file
-	Poker_Server.c				- Functions for the server client
-	Poker_Server.h				- Poker_Server.c Header file
-INSTALL.TXT						- Installation directions
-LICENSE.TXT						- Licensing by Full House of Fools & FHF Software Inc.
-Makefile						- Top level Makefile that builds/cleans executables
-README							- README for Poker simulator
+### General Instructions
 
+1. **Installation:** Follow the instructions in `INSTALL.TXT`.
+
+2. **Running the Program:**
+   * Go to the `bin/` directory.
+   * Type `./Poker` to start.
+   * Use the GUI.
+
+3. **Playing Poker:**
+   * Press "Play" to connect.
+   * Wait for all players.
+   * Press "Play" again to start the game.
+   * Choose your actions (Raise, Fold, Call) when it's your turn.
+
+### Extra Features
+
+* Client and Server Systems
+* Playable Bots (various skill levels)
+* Hand Percentages
+* GUI
+
+### For Users
+
+* See `Poker_UserManual.pdf` in `doc/` for details.
+
+**Poker_Alpha.tar.gz Contents:**
+
+* `bin/` 
+    * `Poker`
+* `doc/`
+    * `Poker_UserManual.pdf` 
+* `INSTALL.TXT`
+* `LICENSE.TXT`
+* `README` 
+
+### For Programmers
+
+* See `Poker_SoftwareSpec.pdf` in `doc/` for details
+
+**Make Commands:**
+
+* `make all` - Build main executable
+* `make test` - Build & run tests
+* `make clean` - Remove build files
+* `make tar` - Create `.tar.gz` files
+
+**Poker_Alpha_src.tar.gz Contents:**
+
+* `bin/` 
+    * `Poker`
+* `doc/`
+    * `Poker_SoftwareSpec.pdf` 
+    * `Poker_UserManual.pdf` 
+* `src/` (C source files & Makefile)
+* `INSTALL.TXT`
+* `LICENSE.TXT`
+* `Makefile`
+* `README` 
+
+**Note:** The instruction about `./Poker` being a "chess program" seems incorrect. 
