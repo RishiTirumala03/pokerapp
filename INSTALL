@@ -1,0 +1,43 @@
+INSTALL.txt
+Version: 0.0.3 Alpha Release
+© 1987 - 2024 Full House of Fools. All Rights Reserved
+
+INSTALL	FOR USERS:
+[For more details see Poker_UserManual.pdf located in the "doc/" directory]
+System Requirments:
+	- Windows/Mac with built in terminal
+	- Able to use/SSH into a linux sever
+	- Download Xming(windows) to be able to display the chess GUI in seperate window
+
+Setup:
+	- Upload the given Poker_Alpha.tar.gz file into a directory named "Poker/" (or any other prefered name) in a Linux server.
+	- Login into the Linux server and navigate to the Poker directory.
+	- Type "tar -xvzf Poker_Alpha.tar.gz" then hit enter to "unzip" the tar file
+	- To remove Poker_Alpha.tar.gz type "rm Poker_Alpha.tar.gz" in the Poker directory and hit enter.
+	- Navigate to the doc/ directory to see more detailed information of the program.
+	- To run the program go into the "bin/" directory and type ./Poker to execute the chess program.
+	- Navigate to the settings menu in the ./Poker executable for more detailed information of the ASCII/Rules.
+
+Deletion:
+	- Navigate to the parent directory of "poker/"
+	- Type "rm -rf poker/" to remove the entire "poker/" directory
+
+
+INSTALL	FOR PROGRAMERS:
+[For more details see Poker_SoftwareSpec.pdf located in the "doc/" directory]
+System Requirments:
+	- Windows/Mac with built in terminal
+	- Able to use/SSH into a linux sever
+	- Download Xming(windows) to be able to display the chess GUI in seperate window
+
+Setup:
+	- Upload the given Poker_Alpha_src.tar.gz file into a directory named "poker/" (or any other prefered name) in a Linux server.
+	- Login into the Linux server and navigate to the poker directory.
+	- Type "tar -xvzf Poker_Alpha_src.tar.gz" then hit enter to "unzip" the tar file
+	- To remove Poker_Alpha_src.tar.gz type "rm Poker_Alpha_src.tar.gz" in the Poker directory and hit enter.
+	- To make the executable again type "make all" in the poker directory.
+	- To clean up all .o files and executables type "make clean".
+	- To see a test used in the creation phase of the program type "make test".
+	- Navigate to the src/ directory to edit the source code used to generate the ./Poker executable.
+	- Navigate to the doc/ directory to see more detailed information of the program.
+
